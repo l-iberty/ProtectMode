@@ -533,7 +533,7 @@ PageSwitch:
 	; 重写 cr3, 刷新 TLB (Translation Lookaside Buffer)
 	;mov	eax, PageDirBase
 	;mov	cr3, eax
-	
+
 	ret
 ;--------------------------------------------------------------------------
 
