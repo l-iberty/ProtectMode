@@ -67,7 +67,7 @@
 * 修改`Init8259A`，屏蔽主从8259A的所有中断
 * 进入保护模式后不再使用`sti`开中断 (实模式下已经使用`cli`关中断了)
 
-## 3. 修改 80h 中段处理过程
+## 3. 修改 80h 中断处理过程
 ![pmtest3_inthandler.png](screenshot/pmtest3_inthandler.png)
 
 因为特权级转移时要切换栈，我需要查看栈信息.
